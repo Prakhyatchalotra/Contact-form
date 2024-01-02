@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto; 
+    min-height: 100vh;
+    max-width: 100vh;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 100px;
+}
+.contents{
+    margin: 0 auto;
+    min-height: fit-content;
+    max-width: 900px;
+    background-color: rgb(225, 222, 222);
+}
+.top {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(77, 193, 206);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+label {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    display: flex;
+}
+.Submit_button button{
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    margin-top: 10px;
+    background-color: rgb(77, 193, 206);
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 15%;
+}
+.Submit_button {
+    align-items: center;
+}
+#Name {
+    padding:10px;
+}
+#Email {
+    padding:10px;
+}
+#Subject {
+    padding:5px;
+}
+#Message{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+@media (max-width: 200px) {
+    .top{
+        background-color: pink;
+    }
+}

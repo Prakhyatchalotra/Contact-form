@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakhyat's_Contact_form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class = "container">
+        <div class = "contents">
+            <div class = "top">
+                <h1>Contact form</h1>
+                <h4>Please fill all the texts in the fields</h4>
+            </div>
+            <div class = "form_details">
+                <form>
+                    <label for = "Name">Your Name:</label>
+                        <input type = "text" id = "Name" name = "Name" placeholder = "Enter your name">
+                    <label for = "Email">Your Email:</label>
+                        <input type = "text" id = "Email" name = "Email" placeholder = "Enter valid email address">
+                    <label for = "Message">Message:</label>
+                        <textarea type = "text" id = "Message" name = "Message" rows = "10" cols = "50" placeholder = "Your message to us..."></textarea>
+                    <label for = "Subject">Subject:</label>
+                    <select id = "Subject" name = "Subject">
+                        <option value="" disabled selected>Select a subject</option>
+                        <option value = "Buy courses">Buy courses</option>
+                        <option value = "Get hired">Get hired</option>
+                        <option value = "Feedback">Feedback</option>
+                    </select>
+                    <div class = "Submit_button">
+                        <button type = "submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
